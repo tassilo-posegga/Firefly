@@ -18,8 +18,9 @@ out/
 # release/
 
 # Gradle files
-.gradle/
-build/
+.gradle/*
+build/*
+*/build/*
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -79,20 +80,15 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 
-build
 captures
 .gradle
 .idea
 bin
 gen
 out
-*.iml
 .directory
 node_modules
-local.properties
 android/mobile/release/*
 ios.xcworkspace/
 
 .DS_Store
-.externalNativeBuild
-
